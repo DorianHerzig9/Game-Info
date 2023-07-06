@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <title>Tales of Iron - Rezension</title>
+    <style>
+        body {
+            font-family: 'Teko', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://replicate.delivery/pbxt/oIOjYEZYCXpxJVqbFckt5q3GQHhdeFR5yuDc9cnjaVeHGaMRA/output.png');
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+    
+        header {
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #00ffcc;
+            padding: 30px;
+        }
+    
+        h1 {
+            margin: 0;
+            flex: 1;
+            font-size: 58px;
+        }
+    
+        #pic {
+            height: auto;
+            width: 50%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            transition: transform 0.3s ease;
+        }
+    
+        main {
+            display: flex;
+            padding: 20px;
+        }
+    
+        section {
+            flex: 1;
+            margin-right: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    
+        h2 {
+            color: #000000;
+            font-size: 58px;
+        }
+    
+        p {
+            font-size: 36px;
+            color: #000000;
+        }
+    
+        footer {
+            color: #000000;
+            padding: 58px;
+            text-align: center;
+            font-size: 48px; /* Hinzugefügt */
+        }
+    
+        .rating {
+            display: flex;
+            align-items: center;
+        }
+    
+        .rating span {
+            font-size: 58px;
+            color: #ffd700;
+            margin-right: 5px;
+        }
+    
+        .back-button {
+            margin-top: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #00ffcc;
+            border: none;
+            padding: 10px 20px;
+            font-family: 'Teko', sans-serif;
+            font-size: 36px; /* Geändert von 58px auf 36px */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+    
+        .back-button:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    </style>    
+</head>
+<body>
+  <header>
+    <h1>Tales of Iron - Rezension</h1>
+    <img id="pic" src="https://assets-prd.ignimgs.com/2021/11/04/tales-of-iron-button-fin-1635984854008.jpg" alt="bild">
+  </header>
+  <main>
+    <section>
+      <h2>Bewertung</h2>
+      <div class="rating">
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9733;</span>
+        <span>&#9734;</span>
+      </div>
+      <p>Tales of Iron ist ein beeindruckendes Spiel mit einer fesselnden Geschichte und atemberaubender Grafik. Das Gameplay ist herausfordernd und bietet eine Mischung aus Action, Abenteuer und RPG-Elementen. DieCharaktere sind liebevoll gestaltet und die Welt ist voller Details. Die Musik und Soundeffekte tragen zur Atmosphäre des Spiels bei und lassen dich in die Welt von Tales of Iron eintauchen. Die Steuerung ist präzise und reaktionsschnell, was das Spielerlebnis noch angenehmer macht. Allerdings könnte die Lernkurve für einige Spieler etwas steil sein. Insgesamt ist Tales of Iron ein Spiel, das sowohl Fans des Genres als auch neue Spieler begeistern wird.</p>
+    </section>
+  </main>
+  <footer>
+    <button class="back-button" onclick="window.location.href = 'index.html';">Zurück zur Hauptseite</button>
+    &copy; 2023 Coole Spiel von mir empfohlen
+  </footer>
+</body>
+</html>
